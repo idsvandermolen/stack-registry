@@ -4,7 +4,6 @@ global:
 stacks:
   gke_prd_europe-west4_gc-prd-kube0:
     grafana:
-      image: grafana/grafana:6.5.2
       resources:
         requests:
           cpu: "8"
